@@ -1,10 +1,10 @@
 ---
-title: Android6.0 source code first anlysis
+title: Android6.0 Telephone 源码分析（一）
 date: 2016-07-22 23:32:04
-tags:
+tags: Android
 ---
 1、点击telephone APP ，通过抓log可以清楚的看到程序入口是DialtactsActivity.onClick()方法:
-![2](54d7876d-6cb4-442f-b72a-6742b06b05cc_files/2.png "2")
+![2](https://raw.githubusercontent.com/XianboChen/MyBlog/master/picture/2.png)
 ``` java
 public void onClick(View view) {
 
@@ -288,8 +288,7 @@ public void placeCall(Uri address, Bundle extras) {
     }
 ```
 ----
-分析到这里出现了问题，项目中找不到类ITelecomService，将所有文件导入也未能找到，明天将继续在此基础上分析。
-![1](54d7876d-6cb4-442f-b72a-6742b06b05cc_files/1.png "1")
+
 
 
 

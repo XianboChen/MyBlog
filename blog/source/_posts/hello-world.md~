@@ -1,9 +1,9 @@
 ---
 title: Hello World(搭建问题解答）
+date: 2016-07-20 23:32:04
 ---
 ### 欢迎来到陈贤波的个人博客！
 
-</br>
 </br>
 ## 搭建介绍
 
@@ -31,21 +31,21 @@ $ sudo apt-get update
 $ sudo apt-get install nodejs
 ```
 
-###安装hexo
+### 安装hexo
 安装hexo以官方介绍为准，部分博客给出的命令可能是因为hexo版本不同的问题产生异常的错误
 
-####Installation
+#### Installation
 ```
 $ npm install hexo-cli -g
 ```
-####Quick Start
+#### Quick Start
 
-#####Setup your blog
+##### Setup your blog
 ```
 $ hexo init blog
 $ cd blog
 ```
-#####Start the server
+##### Start the server
 ```
 $ hexo server
 ```
@@ -53,7 +53,7 @@ $ hexo server
 ```
 $ hexo new "Hello Hexo"
 ```
-#####Generate static files
+##### Generate static files
 ```
 $ hexo generate
 ```
@@ -63,7 +63,7 @@ hexo 更新到3.0之后，deploy的type 的github需要改成git，并在deploy�
 ```
 $ npm install hexo-deployer-git --save
 ```
-### hexo server端口被占用
+### hexo server 端口被占用
 执行更换端口的命令：
 ```
 hexo s -p 5000 (-p 后接端口）
