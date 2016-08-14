@@ -48,7 +48,7 @@ $ cd blog
 ```
 $ hexo server
 ```
-#####Create a new post
+##### Create a new post
 ```
 $ hexo new "Hello Hexo"
 ```
