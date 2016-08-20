@@ -1,7 +1,8 @@
 ---
 title: Java多线程浅谈（一）
 date: 2016-07-26 22:41:46
-tags: java
+tags:
+  - java
 ---
 实现java多线程主要有两种方法：继承Thread类和实现runnable接口。
 ## 1、继承java.lang.Thread类

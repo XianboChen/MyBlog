@@ -1,7 +1,9 @@
 ---
 title: Shell简单学习
 date: 2016-07-29 18:58:57
-tags: Tool
+tags:
+  - Shell
+  - Tool
 ---
 最近学习简单看了点shell脚本的语法，在此来记下与C、java语言不同的语法点，方便以后查看。
 首先要明确两个概念：Shell脚本与Shell

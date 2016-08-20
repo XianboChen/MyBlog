@@ -1,7 +1,8 @@
 ---
 title: Java反射浅谈（一）
 date: 2016-07-25 22:12:10
-tags: java
+tags:
+  - java
 ---
 反射常用于各种框架中如:spring中的bean就是利用反射实现以及反编译中。
 java.lang.Class是反射的源头。

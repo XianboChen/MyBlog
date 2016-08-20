@@ -5,9 +5,9 @@
 # Site
 title: luoluolet
 subtitle:
-description:
-author: John Doe
-language:
+description: 相信吧，快乐的日子将会来临！
+author: luoluolet
+language: zh-Hans
 timezone:
 
 # URL
@@ -46,7 +46,7 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map: java Android Tool
+tag_map: java Android Tool 操作系统 hexo
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: TKL
+theme: next
 
 
 
@@ -73,3 +73,6 @@ deploy:
   type: git
   repository: git@github.com:xianbochen/xianbochen.github.io.git
   branch: master
+
+avatar: /images/avatar.png
+duoshuo_shortname: luoluolet

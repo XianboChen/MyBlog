@@ -1,8 +1,9 @@
----
 title: Android6.0 Telephone 源码分析（一）
 date: 2016-07-22 23:32:04
-tags: Android
+tags:
+  - Android
 ---
+### DialtactsActivity
 1、点击telephone APP ，通过抓log可以清楚的看到程序入口是DialtactsActivity.onClick()方法:
 ![2](https://raw.githubusercontent.com/XianboChen/MyBlog/master/picture/2.png)
 ``` java
@@ -43,6 +44,7 @@ public void onClick(View view) {
     }
 
 ```
+### DialPadFragment
 2、调用showDialpadFragment()方法，在该方法中new出了DialPadFragment,此时进入类DialPadFragment中的onClick()方法（这里有两个DialPadFragment.java文件，一个在./dialpad文件夹中，还有一个在./incall文件夹中，这是在来电时调用的。
 ```   java
  @Override
@@ -243,7 +245,7 @@ public void onPressed(View view, boolean pressed) {
 > DialerUtils.startActivityWithErrorToast(getActivity(), intent);
 
 
-
+### DialerUtils
 3、进入类DialerUtils.startActivityWithErrorToast()方法，这里有多个重载：
 
 ```  java
@@ -270,6 +272,7 @@ public static void startActivityWithErrorToast(Context context, Intent intent, i
         }
     }
 ```
+### TelecomManager
 4、进入类TelecomManager.placeCall()方法,此时已经在framework包下，进入了framework层：
 ``` java
 public void placeCall(Uri address, Bundle extras) {

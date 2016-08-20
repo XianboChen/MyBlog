@@ -6,10 +6,10 @@ tags: 操作系统
 
 相信大家学习操作系统时都书上看到了密密麻麻写的几张纸的进程与线程的关系的分析，但是初学者看完之后往往会感觉很乱，抓不住主要矛盾，这里就教你一针见血的指出进程（preocess)与线程(thread)的区别。
 </br>
-</br>
 首先谷歌一下，看看国外的大牛都是怎么说的：
 
 ![](https://raw.githubusercontent.com/XianboChen/MyBlog/master/picture/process_thread.PNG)
+</br>
 哈哈，看来大家都对这个问题很有兴趣啊，有很多的讨论帖子，这里选取两个贴上：
 
 > Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
